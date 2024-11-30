@@ -1,0 +1,55 @@
+@media (min-width: 960px) {
+  .navbar-nav {
+    gap: 70px;
+  }
+}
+.bottom_icon{
+  font-size: 24px;
+}
+#carouselExampleIndicators {
+  max-height: 600px; 
+  margin: auto; 
+}
+#carouselExampleIndicators img {
+  object-fit: cover; 
+  height: 600px; 
+}
+#stats_header{
+  color: rgb(46, 46, 46);
+  font-weight: 500;
+  font-size: 44px;
+}
+#stats_p{
+  color: rgb(50, 50, 50);
+  font-size: 18;
+  font-weight: 400;
+}
+.card-header{
+  color:rgb(33, 37, 41);
+  font-size: 32;
+  font-weight: 500;
+}
+.card-paragraph{
+  color: rgb(99, 99, 99);
+  font-size: 18;
+  font-weight: 400;
+}
+.fixed-size {
+  width: 150px; /* Sabit genişlik */
+  height: 150px; /* Sabit yükseklik */
+  object-fit: cover; /* Resmin oranını koruyarak alanı doldurur */
+  border-radius: 10px; /* Opsiyonel: Köşeleri yuvarlamak için */
+}
+.solutions-header{
+  color: rgb(0, 179, 210);
+  font-size: 32px;
+  font-weight: bold;
+}
+.big-company-image{
+  height: 50vh; /* Makes the image fill the viewport height */
+  object-fit: cover; /* Ensures the image scales correctly without distortion */
+}
+body{
+  font-family: "Inter", sans-serif;                       
+}
+
