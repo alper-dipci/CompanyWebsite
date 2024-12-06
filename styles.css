@@ -52,7 +52,7 @@
   font-weight: bold;
 }
 .big-company-image{
-  height: 50vh; /* Makes the image fill the viewport height */
+  height: 50vh;  Makes the image fill the viewport height */
   object-fit: cover; /* Ensures the image scales correctly without distortion */
 }
 .contact-card{
@@ -66,3 +66,39 @@ body{
   font-family: "Inter", sans-serif;                       
 }
 
+
+/* --------------------------------------------------------------------------------------------------------------------------*/
+/* HEADER */
+.navbar {
+  background-color: #394048 !important; /* Arka plan rengini değiştirir */
+  color: #ffffff; /* Metin rengini beyaz yapar */
+}
+
+.navbar .nav-link {
+  color: #ffffff; /* Linklerin rengini beyaz yapar */
+}
+
+.navbar .nav-link:hover {
+  color: #00aced; /* Hover durumunda renk değişimi */
+}
+/* HEADER BITIS*/
+/* --------------------------------------------------------------------------------------------------------------------------*/
+
+/* --------------------------------------------------------------------------------------------------------------------------*/
+/* FOOTER */
+
+footer {
+  background-color: #394048;
+  color: #eeeeee;
+    width: 100%;
+    position: relative; /* Alternatif: fixed */
+    bottom: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+.text-foot {
+  color: #eeeeee ;
+}
+
+/* FOOTER BITIS*/
+/* --------------------------------------------------------------------------------------------------------------------------*/
