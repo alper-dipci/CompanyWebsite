@@ -70,9 +70,9 @@ body{
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /* HEADER */
 .navbar {
-  background-color: #394048 !important; /* Arka plan rengini değiştirir */
+  background: linear-gradient(135deg, #0d54be, #1d2127); /* Arka plan rengini değiştirir */
   color: #ffffff; /* Metin rengini beyaz yapar */
-  background-image: url('images/header-bg.jpg');
+  
   
 }
 
@@ -93,7 +93,7 @@ body{
 /* FOOTER */
 
 footer {
-  background-color: #394048;
+  background: linear-gradient(135deg, #0d54be, #1d2127);
   color: #eeeeee;
     width: 100%;
     position: relative; /* Alternatif: fixed */
@@ -110,13 +110,6 @@ footer {
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /* CONTACT */
-.map-container {
-  max-width: 2000px; /* Genişliği kontrol eder */
-  max-height: 700px;
-  height: auto; /* Oranı korur */
-  margin: 0 auto; /* Ortalamak için */
-}
-
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -124,7 +117,7 @@ footer {
   transform: translate(-50%, -50%);
   color: white; /* Yazı rengini beyaz yap */
   text-align: center;
-  z-index: 10; /* Metni resmin üzerinde tut */
+  z-index: 10; /* Metni resmin üzerinde tut */  
 }
 
 .overlay-text h2 {
@@ -132,7 +125,7 @@ footer {
   color: white; /* Yazı rengini beyaz yap */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Gölgeli yazı */
   font-weight: bold; /* Yazıyı kalın yap */
-  text-align: center; /* Yazıyı ortala */
+  text-align: left; /* Yazıyı ortala */
 }
 
 .big-company-image {
@@ -152,6 +145,7 @@ footer {
 .custom-container .text-muted {
   font-size: 0.85rem; /* Küçük açıklamalar */
 }
+
 
 
 
