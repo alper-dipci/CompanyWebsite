@@ -152,9 +152,6 @@ footer {
   font-size: 0.85rem; /* Küçük açıklamalar */
 }
 
-
-
-
 /* CONTACT BITIS*/
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
@@ -174,4 +171,38 @@ footer {
   background-color: white;
   
 
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------*/
+/* Animasyonlar*/
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scale Animation for Hover */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Initial State for Animation */
+.card {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
