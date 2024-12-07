@@ -89,42 +89,100 @@
   </header>
     <main class="mb-1">
       <!-- big company image -->
-        <div class="container-fluid px-0">
-          <img src="https://picsum.photos/3000" class="img-fluid w-100 big-company-image" alt="">
+      <div class="container-fluid px-0 position-relative">
+        <img src="images/header-bg.jpg" class="img-fluid w-100 big-company-image" alt="">
+        <div class="overlay-text">
+          <h2>Contact Us</h2>
         </div>
-        <div class="container my-5">
-          <div class="row g-0">
-            <div class="col-md-4 px-3">
-              <div class="container-fluid d-flex flex-column align-items-center text-center contact-card p-5 h-100">
-                <img src="https://picsum.photos/100" alt="Image 2" class="fixed-icon-size mb-5">
-                <h3 class="contact-card-header mb-5">Call us directly</h3>
-                <button type="button" class="btn btn-primary btn-md mt-auto">Call us</button>
+      </div>      
+      <div class="col-md-9 container-fluid custom-container bg-white py-4">
+        <div class="row text-center">
+          <!-- Email -->
+          <div class="col-md-2">            
+            <a href="mailto:info@analitik.com.tr" class="fas fa-envelope fa-2x mb-2 "></a>
+            <p>info@company.com.tr</p>
+            
+          </div>                  
+          <!-- Telefon -->
+          <div class="col-md-2">
+            <a href="tel:+902242808458" class="fas fa-phone fa-2x mb-2 text-primary"></a>            
+            <p>0999 888 77 66</p>            
+          </div>
+          <!-- Facebook -->
+          <div class="col-md-2">
+            <a href="https://www.facebook.com" class="text-primary">
+              <i class="fab fa-facebook fa-2x mb-2"></i>
+            </a>
+            <small class="text-muted d-block">Facebook</small>
+          </div>
+          <!-- Instagram -->
+          <div class="col-md-2">
+            <a href="https://www.instagram.com" class="text-primary">
+              <i class="fab fa-instagram fa-2x mb-2"></i>
+            </a>
+            <small class="text-muted d-block">Instagram</small>
+          </div>
+          <!-- LinkedIn -->
+          <div class="col-md-2">
+            <a href="https://www.linkedin.com" class="text-primary">
+              <i class="fab fa-linkedin fa-2x mb-2"></i>
+            </a>
+            <small class="text-muted d-block">LinkedIn</small>
+          </div>
+          <!-- YouTube -->
+          <div class="col-md-2">
+            <a href="https://www.youtube.com" class="text-primary">
+              <i class="fab fa-youtube fa-2x mb-2"></i>
+            </a>
+            <small class="text-muted d-block">YouTube</small>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5">
+        <div class="row align-items-stretch">
+          <!-- Sol taraf: Form -->
+          <div class="col-lg-6 bg-light p-5 d-flex flex-column justify-content-center">
+            <h3 class="text-center mb-4">Lütfen her türlü öneri, şikayet ve sorunlarınız için aşağıdaki formu doldurun.</h3>
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Adınız Soyadınız" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="E-Posta Adresiniz" required>
+                </div>
               </div>
-            </div>
-            <div class="col-md-4 px-3">
-              <div class="container-fluid d-flex flex-column align-items-center text-center contact-card p-5 h-100">
-                <img src="https://picsum.photos/100" alt="Image 2" class="fixed-icon-size mb-5">
-                <h3 class="contact-card-header mb-5">Chat with our sales team</h3>
-                <button type="button" class="btn btn-primary btn-md mt-auto">Chat with sales</button>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Konu" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Telefon Numaranız" required>
+                </div>
               </div>
-            </div>
-            <div class="col-md-4 px-3">
-              <div class="container-fluid d-flex flex-column align-items-center text-center contact-card p-5 h-100">
-                <img src="https://picsum.photos/100" alt="Image 2" class="fixed-icon-size mb-5">
-                <h3 class="contact-card-header mb-5">Get a product demo</h3>
-                <button type="button" class="btn btn-primary btn-md mt-auto">Get a demo</button>
+              <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Mesajınız" required></textarea>
               </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Mesaj Gönder</button>
+              </div>
+            </form>
+          </div>
+          <!-- Sağ taraf: Google Maps -->
+          <div class="col-lg-6 p-0">
+            <div class="ratio ratio-16x9 h-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22736.088346322285!2d30.696629650877846!3d36.91308207526761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1733527021374!5m2!1str!2str"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
           </div>
         </div>
+      </div>
         
-    </main>
-    <!-- Adres (google) -->
-    <div class="ratio ratio-16x9 map-container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22736.088346322285!2d30.696629650877846!3d36.91308207526761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1733527021374!5m2!1str!2str"
-        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
+    </main>    
     <!-- footer -->
     <footer class=" container-fluid px-5 d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top" style="background-color: #394048;">
       <div class="col-md-4 d-flex align-items-center">
