@@ -65,6 +65,12 @@
 body{
   font-family: "Inter", sans-serif;                       
 }
+.pro_details{
+  height: 150px; 
+  width: 450px;
+  object-fit:fill; /* Ensures the image scales correctly without distortion */
+  
+}
 
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
@@ -152,3 +158,20 @@ footer {
 /* CONTACT BITIS*/
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
+/* İç içe dropdown menü için konumlandırma */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%; /* Alt menü, ana menünün sağında açılır */
+  margin-left: 0.1rem;
+  margin-top: -0.1rem;
+}
+
+.pro_detail_header{
+  background-color: white;
+  
+
+}
