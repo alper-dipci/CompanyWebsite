@@ -97,8 +97,7 @@
       <!-- big company image -->
         <div class="container-fluid px-0">
           <img src="images/products/dedicated_server.png" class="img-fluid w-100 big-company-image" alt="">
-        </div>
-        
+        </div>        
         <div class="container my-5">
           <div class="container mt-5">
             <div class="mt-2 mt-xl-0">
@@ -107,9 +106,8 @@
                 Experience unparalleled performance with bare-metal servers, offering dedicated hardware for maximum speed, security, and reliability. These servers are ideal for resource-intensive applications, high-traffic websites, and enterprises requiring full control over their infrastructure. With no shared resources, bare-metal servers ensure consistent performance, making them the perfect solution for running complex workloads, virtualized environments, or custom configurations tailored to your business needs. Optimize your operations with scalable, high-performance solutions designed to handle today's most demanding tasks.    
               </p>
           </div>
-        </div>
-        <!-- planlar -->             
-      
+        </div>                  
+      <!-- planlar -->   
       <div class="container-lg">
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
@@ -118,7 +116,7 @@
               <h4 class="my-0 fw-normal">AMD Ryzen 12</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">€64.00
+              <h1 class="card-title pricing-card-title">€68.00
                 <small class="text-muted fw-light">/mo</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>AMD Ryzen 9 7900</li>
@@ -133,7 +131,8 @@
                 <li>1 Gbit/s Port</li>
                 
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Select</button> 
+              <button type="button" class="w-100 btn btn-lg btn-primary" onclick="showPaymentPopup()">Buy Now</button>
+
             </div>
           </div>
         </div>
@@ -157,7 +156,8 @@
                 <br>
                 <li>1 Gbit/s Port</li>                
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Select</button>
+              <button type="button" class="w-100 btn btn-lg btn-primary" onclick="showPaymentPopup()">Buy Now</button>
+
             </div>
           </div>
         </div>
@@ -181,46 +181,39 @@
                 <br>
                 <li>2 Gbit/s Port</li>                
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Select</button>
+              <button type="button" class="w-100 btn btn-lg btn-primary" onclick="showPaymentPopup()">Buy Now</button>
             </div>
           </div>
         </div>
       </div>
-      <!-- özellikler  -->      
-      <div class="container-lg">
-        <div class="row row-cols-1 row-cols-md-3 mb-3">
-          <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
-              <img src="images/products/price.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
-              <div class="card-header py-3  pro_detail_header">
-                <h4 class="my-0 fw-normal ">Wallet-Friendly Prices</h4>
-              </div>
-              <div class="card-body">                
-                <p class="mt-4">We always strive to pass on low prices and discounts to our customers. We’re able to provide high quality servers at a value to our customers through a combination of using brand new components from AMD, Dell, HP, and Samsung that we buy at a solid discount, optimizing server loads, and managing our data centers efficiently (we own our data centers and all of our hardware).</p><br>              </div>
+      <div class="container my-5">
+        <div class="row">
+            <!-- Birinci konteynır -->
+            <div class="col-md-4">
+                <div class="p-3 border-0 bg-light">
+                    <img src="images/products/price.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
+                    <h4 class="my-0 fw-normal mt-4">Wallet-Friendly Prices</h4>
+                    <p class="mt-4">We always strive to pass on low prices and discounts to our customers. We’re able to provide high quality servers at a value to our customers through a combination of using brand new components from AMD, Dell, HP, and Samsung that we buy at a solid discount, optimizing server loads, and managing our data centers efficiently (we own our data centers and all of our hardware).</p>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
-              <img src="images/products/security.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
-              <div class="card-header py-3  pro_detail_header">
-                <h4 class="my-0 fw-normal ">High security</h4>
-              </div>
-              <div class="card-body">                
-                <p class="mt-4">To quote one of our co-founders, "We are obsessed with security." We maintain strict role-based access (RBAC) rules across the entire company, especially when it comes to our data centers (all of them have 24/7 surveillance and layers of security measures). And, we have thorough processes that ensure we maintain the highest of security precautions for each of our customers.</p>              </div>
+            <!-- İkinci konteynır -->
+            <div class="col-md-4">
+                <div class="p-3 border-0 bg-light">
+                    <img src="images/products/security.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
+                    <h4 class="my-0 fw-normal mt-4">High security</h4>
+                    <p class="mt-4">To quote one of our co-founders, "We are obsessed with security." We maintain strict role-based access (RBAC) rules across the entire company, especially when it comes to our data centers (all of them have 24/7 surveillance and layers of security measures). And, we have thorough processes that ensure we maintain the highest of security precautions for each of our customers.</p>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
-              <img src="images/products/support.png" class="img-fluid rounded-3 pro_details" alt="">
-              <div class="card-header py-3  pro_detail_header">
-                <h4 class="my-0 fw-normal ">Year-round Support</h4>
-              </div>
-              <div class="card-body">                
-                <p class="mt-4">Our award-winning customer support team is here for you via phone and or email. Industry-leading publications and customers have praised our team for the work they’ve done in resolving issues quickly. Fortunately, the support team isn’t one to rest on their laurels, and they always strive to improve their craft.</p><br><br>             
-              </div>
+            <!-- Üçüncü konteynır -->
+            <div class="col-md-4">
+                <div class="p-3 border-0 bg-light ">
+                    <img src="images/products/support.png" class="img-fluid rounded-3 pro_details" alt="">                    
+                    <h4 class="my-0 fw-normal mt-4">Year-round Support</h4>
+                    <p class="mt-4">Our award-winning customer support team is here for you via phone and or email. Industry-leading publications and customers have praised our team for the work they’ve done in resolving issues quickly. Fortunately, the support team isn’t one to rest on their laurels, and they always strive to improve their craft.</p>
+                </div>
             </div>
-          </div>
         </div>
+    </div>     
     </main>
     <!-- footer -->
     <footer class=" container-fluid px-5 d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top" style="background-color: #394048;">
@@ -241,5 +234,42 @@
       </ul>
 </footer>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="scripts.js"></script>
+    <!-- Payment Modal -->
+<div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="paymentModalLabel">Payment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="cardNumber" class="form-label">Card Number</label>
+            <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+          </div>
+          <div class="mb-3">
+            <label for="cardName" class="form-label">Cardholder Name</label>
+            <input type="text" class="form-control" id="cardName" placeholder="John Doe">
+          </div>
+          <div class="mb-3 d-flex">
+            <div class="me-2">
+              <label for="expiryDate" class="form-label">Expiry Date</label>
+              <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+            </div>
+            <div>
+              <label for="cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cvv" placeholder="123">
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary w-100">Submit Payment</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
   </body>
 </html>
+
