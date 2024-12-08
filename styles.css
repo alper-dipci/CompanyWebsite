@@ -63,7 +63,10 @@
   font-weight: 500;
 }
 body{
-  font-family: "Inter", sans-serif;                       
+  font-family: "Inter", sans-serif; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;                      
 }
 .pro_details{
   height: 150px; 
@@ -104,7 +107,7 @@ footer {
     width: 100%;
     position: relative; /* Alternatif: fixed */
     bottom: 0;
-    padding: 15px 0;
+    
     text-align: center;
 }
 .text-foot {
@@ -126,12 +129,15 @@ footer {
   z-index: 10; /* Metni resmin üzerinde tut */  
 }
 
+
+
 .overlay-text h2 {
   font-size: 4rem; /* Font boyutunu 4rem yap */
   color: white; /* Yazı rengini beyaz yap */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Gölgeli yazı */
   font-weight: bold; /* Yazıyı kalın yap */
   text-align: left; /* Yazıyı ortala */
+  margin-top: 400px;
 }
 
 .big-company-image {
