@@ -4,6 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Software Products - AGOF Tech</title>
+
+    <style>
+      html {
+          scroll-behavior: smooth;
+      }
+      #target-link{
+        color: inherit;
+        text-decoration: none;
+      }
+      #target-link > a:hover{
+        color: inherit;
+        background-color: transparent;
+      }
+      
+      .carousel-inner .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .carousel-item {
+        overflow: hidden;
+      }
+      .carousel-inner img {
+        height: 200px; /* Adjust the height as needed */
+        object-fit: cover;
+      }
+    </style>
+
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.css"
@@ -91,88 +119,309 @@
     <main class="mb-1">
       <!-- big company image -->
         <div class="container-fluid px-0">
-          <img src="images/products/SoftwareProducts/SPB.png" class="img-fluid w-100 big-company-image" alt="">
+          <img src="images/products/SoftwareProducts/SBP.webp" class="img-fluid w-100 big-company-image" alt="">
         </div>
+
+        
         
         <!-- Software Product Carts -->
-        <div class="container my-5">
+        <div class="container my-5 px-3 px-md-5 ">
           <div class="row justify-content-center">
               <!-- Birinci konteynır -->
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4">
-                  <div class="p-3 border-0 bg-light">
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4 px-sm-2 px-md-3">
+                <a href="#manifacturing-sector" class="text-decoration-none d-block" style=" z-index: 10;" id="target-link">
+                  <div class="p-3 border-0 bg-light text-center" style="height: 330px;">
                       <img src="images/products/SoftwareProducts/perakende.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
-                      <h4 class="my-0 fw-normal mt-4">Retail Sector</h4>
-                      <p class="mt-4">We always strive .</p>
+                      <h4 class="my-0 fw-normal mt-4">Manifacturing Sector</h4>
+                      <p class="mt-4">Click for more details.</p>
                   </div>
+                </a>  
               </div>
               <!-- Ikinci konteynır -->
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4">
-                <div class="p-3 border-0 bg-light">
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4 px-sm-2 px-md-3" >
+                <a href="#machine-sector" class="text-decoration-none d-block" style=" z-index: 10;" id="target-link">
+                <div class="p-3 border-0 bg-light text-center" style="height: 330px;">
                     <img src="images/products/SoftwareProducts/makine.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
                     <h4 class="my-0 fw-normal mt-4">Machine Sector</h4>
-                    <p class="mt-4">We always strive .</p>
+                    <p class="mt-4">Click for more details.</p>
                 </div>
+                </a>
               </div>
               <!-- Ucuncu konteynır -->
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4">
-                <div class="p-3 border-0 bg-light">
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4 px-sm-2 px-md-3" >
+                <a href="#construction-sector" class="text-decoration-none d-block" style=" z-index: 10;" id="target-link">
+                <div class="p-3 border-0 bg-light text-center" style="height: 330px;">
                     <img src="images/products/SoftwareProducts/insaat.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
                     <h4 class="my-0 fw-normal mt-4">Construction Sector</h4>
-                    <p class="mt-4">We always strive .</p>
+                    <p class="mt-4">Click for more details.</p>    
                 </div>
+                </a>
               </div>
               <!-- Dorduncu konteynır -->
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4">
-                <div class="p-3 border-0 bg-light">
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4 px-sm-2 px-md-3" >
+                <a href="#tourism-sector" class="text-decoration-none d-block" style=" z-index: 10;" id="target-link">
+                <div class="p-3 border-0 bg-light text-center" style="height: 330px;">
                     <img src="images/products/SoftwareProducts/turizm.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
                     <h4 class="my-0 fw-normal mt-4">Tourism Sector</h4>
-                    <p class="mt-4">We always strive .</p>
+                    <p class="mt-4">Click for more details.</p>
                 </div>
+                </a>
               </div>
               <!-- Besinci konteynır -->
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4">
-                <div class="p-3 border-0 bg-light">
-                    <img src="images/products/SoftwareProducts/mobilya.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4 px-sm-2 px-md-3" >
+                <a href="#furniture-sector" class="text-decoration-none d-block" style=" z-index: 10;" id="target-link">
+                <div class="p-3 border-0 bg-light text-center" style="height: 330px;">
+                    <img src="images/products/SoftwareProducts/mobilya.png" class="img-fluid rounded-3 w-100 pro_details" alt="">            
                     <h4 class="my-0 fw-normal mt-4">Furniture Sector</h4>
-                    <p class="mt-4">We always strive .</p>
+                    <p class="mt-4">Click for more details.</p>
                 </div>
+                </a>
               </div>
               <!-- Altinci konteynır -->
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4">
-                <div class="p-3 border-0 bg-light">
-                    <img src="images/products/SoftwareProducts/elektrik.png" class="img-fluid rounded-3 w-100 pro_details" alt="">
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-4 px-sm-2 px-md-3" >
+                <a href="#electric-sector" class="text-decoration-none d-block" style=" z-index: 10;" id="target-link">
+                <div class="p-3 border-0 bg-light text-center" style="height: 330px;">
+                    <img src="images/products/SoftwareProducts/elektrik.png" class="img-fluid rounded-3 w-100 pro_details" alt="">                
                     <h4 class="my-0 fw-normal mt-4">Electric Sector</h4>
-                    <p class="mt-4">We always strive .</p>
+                    <p class="mt-4">Click for more details.</p>
                 </div>
+                </a>
               </div>
           </div>
       </div> 
         <!-- saglı sollu info -->
         <div class="container my-5">
-        <div class="container mt-5">
+          <!--First-->
+
+          <div class="container mt-5" id="manifacturing-sector">
+              <div class="row" >
+                  <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                      <img src="images/products/SoftwareProducts/retail-info.webp" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-xl-6 mt-2 mt-xl-0">
+                      <h1>Manifacturing Sector</h1>
+                      <p class="mt-4">
+                        Industry-Specific Solutions
+                        <ul>
+                          <li>Unlimited product tracking.</li>
+                          <li>Tracking both original and equivalent products with the original product code.</li>
+                          <li>Tracking promotional and campaign products.</li>
+                          <li>Managing warehouse control, goods acceptance processes, and inventory counts.</li>
+                          <li>Using handheld terminals for all these processes (including Android and iOS phones and tablets).</li>
+                        </ul>
+                        </p>
+                  </div>
+              </div>
+          </div>
+
+          <!--Second-->
+
+          <div class="container mt-5" id="machine-sector">
             <div class="row">
-                <div class="col-xl-6">
-                    <img src="https://picsum.photos/1600/500" alt="" class="img-fluid">
+              <div class="col-xl-6 mt-2 mt-xl-0">
+                <h1>Machine Sector</h1>
+                <p class="mt-4">
+                  Industry-Specific Solutions
+                  <ul>
+                    <li>Automatic data transfer from Construction Software to Mikro database.</li>
+                    <li>How many projects do I have in the construction sector?</li>
+                    <li>Creating a budget for each project and comparing it with the actual budget.</li>
+                    <li>Identifying areas where the budget deviates.</li>
+                    <li>Payroll management on a project basis.</li>
+                  </ul>
+                  </p>
+              </div>
+                <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <img src="images/products/SoftwareProducts/machine-info.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+          </div>
+
+          <!--Third-->
+
+          <div class="container mt-5" id="construction-sector">
+            <div class="row" >
+                <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <img src="images/products/SoftwareProducts/construction-info.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-xl-6 mt-2 mt-xl-0">
-                    <h1>Create Stunning Charts with Ease</h1>
+                    <h1>Construction Sector</h1>
                     <p class="mt-4">
-                      Bring clarity and impact to your data with ChartEase Pro, the go-to solution for creating stunning, interactive charts. ChartEase Pro supports a wide range of chart types, including bar graphs, line charts, heatmaps, and even live data visualizations. Its user-friendly design ensures anyone can create professional-grade visuals in minutes—no technical expertise required!  </p>
+                      Industry-Specific Solutions
+                      <ul>
+                        <li>Automatic data transfer from Construction Software to Mikro database.</li>
+                        <li>How many projects do I have in the construction sector?</li>
+                        <li>Creating a budget for each project and comparing it with the actual budget.</li>
+                        <li>Identifying areas where the budget deviates.</li>
+                        <li>Payroll management on a project basis.</li>
+                      </ul>
+                    </p>
                 </div>
             </div>
-        </div>
-         <div class="container mt-5 ">
-            <div class="row"><div class="col-xl-6 mt-2 mt-xl-0">
-                <h1>Versatile and Ready for Any Platform</h1>
+          </div>
+
+          <!--Forth-->
+
+          <div class="container mt-5" id="tourism-sector">
+            <div class="row">
+              <div class="col-xl-6 mt-2 mt-xl-0">
+                <h1>Tourism Sector</h1>
                 <p class="mt-4">
-                  Perfect for reports, presentations, and websites, ChartEase Pro offers seamless export options and API integrations for added convenience. Whether you're simplifying complex data for your team or impressing clients with sleek visuals, ChartEase Pro ensures your charts are not just informative but also visually engaging.   </p>
-            </div>
-                <div class="col-xl-6">
-                    <img src="https://picsum.photos/1200/500" alt="" class="img-fluid">
+                  Industry-Specific Solutions
+                      <ul>
+                        <li>Data transfer solutions from hotel software (Fidelio, System Hotel, Elektra, etc.) to Mikro software.</li>
+                        <li>Data transfer from hotel software can be verified using the Balance Check report.</li>
+                        <li>Data transfer from MC (Material Control) hotel software is provided. Purchases and inventory counts are carried out in the MC software and transferred to Mikro</li>
+                        <li>Systems can be established in hotels based on accrual accounting principles.</li>
+                      </ul>
+                </p>
+              </div>
+                <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <img src="images/products/SoftwareProducts/tourism-info.webp" alt="" class="img-fluid">
                 </div>
             </div>
+          </div>
+
+          <!--Fifth-->
+
+          <div class="container mt-5" id="furniture-sector">
+            <div class="row" >
+                <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <img src="images/products/SoftwareProducts/furniture-info.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-xl-6 mt-2 mt-xl-0">
+                    <h1>Furniture Sector</h1>
+                    <p class="mt-4">
+                      Industry-Specific Solutions
+                      <ul>
+                        <li>Sales amount/quantity, returns from sales, and costs are analyzed for brands, products, and product groups. Based on the analysis results, goals can be set, and strategies can be determined. Mikro applications integrate customer order fulfillment with finance and distribution management modules.</li>
+                        <li>Planning managers can assess customer orders considering profitability and resource adequacy based on costs.</li>
+                        <li>Customer service departments can identify incorrect product configuration reports and monitor quality issues in stores.</li>
+                      </ul>
+                    </p>
+                </div>
+            </div>
+          </div>
+
+          <!--Sixth-->
+
+          <div class="container mt-5" id="electric-sector">
+            <div class="row">
+              <div class="col-xl-6 mt-2 mt-xl-0">
+                <h1>Electric Sector</h1>
+                <p class="mt-4">
+                  Industry-Specific Solutions
+                      <ul>
+                        <li>Monitoring raw material and semi-finished product inventories.</li>
+                        <li>Tracking labor and work processes.</li>
+                        <li>Ratios and distribution of costs.</li>
+                        <li>Tracking production processes.</li>
+                        <li>Tracking production by batch and lot.</li>
+                      </ul>
+                </p>
+              </div>
+                <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <img src="images/products/SoftwareProducts/electric-info.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="container my-4 text-center">
+          <h1 class="display-2 fw-bold">Software Products</h1>
+          <p class="text-muted fs-5">Explore our software solutions.</p>
+        </div>
+        
+        <br>
+
+        <!--carousel-->
+
+        <div id="carouselExampleIndicators" class="carousel slide w-75 h-75" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+    
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-4">
+                  <a href="/contact.html" >
+                    <img class="d-block w-100 h-100 " src="images/products/SoftwareProducts/carousel/cloud.webp" alt="First slide">
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a href="/contact.html">
+                    <img class="d-block w-100 h-100" src="images/products/SoftwareProducts/carousel/mikro-fly.webp" alt="Second slide">
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a href="/contact.html">
+                    <img class="d-block w-100 h-100" src="images/products/SoftwareProducts/carousel/construction-softw.webp" alt="Third slide">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-4">
+                  <a href="/contact.html">
+                    <img class="d-block w-100 h-100 " src="images/products/SoftwareProducts/carousel/comtug.png" alt="First slide">
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a href="/contact.html">
+                    <img class="d-block w-100 h-100" src="images/products/SoftwareProducts/carousel/denside.png" alt="Second slide">
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a href="/contact.html">
+                    <img class="d-block w-100 h-100" src="images/products/SoftwareProducts/carousel/hostlink.png" alt="Third slide">
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <a href="/contact.html">
+                    <img class="d-block w-100 h-100" src="images/products/SoftwareProducts/carousel/mikro-jump.webp" alt="Fourth slide">
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a href="/contact.html">
+                    <img class="d-block w-100 h-100" src="images/products/SoftwareProducts/carousel/cloud.webp" alt="Fifth slide">
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a href="/contact.html">
+                    <img class="d-block w-100 h-100" src="images/products/SoftwareProducts/carousel/mikro-run.webp" alt="Sixth slide">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            
+    
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
+        
+
     </main>
     <!-- footer -->
       <footer class=" container-fluid px-5 d-flex flex-wrap justify-content-between align-items-center py-4 mt-4 border-top">

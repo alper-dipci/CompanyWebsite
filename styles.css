@@ -52,7 +52,7 @@
   font-weight: bold;
 }
 .big-company-image{
-  height: 50vh;  Makes the image fill the viewport height */
+  height: 50vh;  /* Makes the image fill the viewport height */
   object-fit: cover; /* Ensures the image scales correctly without distortion */
 }
 .contact-card{
@@ -212,3 +212,5 @@ footer {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+/* --------------------------------------------------------------------------------------------------------------------------*/
