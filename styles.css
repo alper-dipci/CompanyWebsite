@@ -221,6 +221,7 @@ footer {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
 }
 
 .bcard:hover {
@@ -232,16 +233,20 @@ footer {
   font-size: 1.5rem;
   color: #007bff;
   font-weight: bold;
+  margin-left: 1rem;
 }
 
 .bcard-text {
   margin-top: 1.5rem;
   color: #000000;
   font-weight: bold;
+  margin-left: 1rem;
 }
 
 .bcard-date {
-  margin-top: 1rem;
   color: #007bff;
   text-align-last: right;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
