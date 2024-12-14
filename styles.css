@@ -214,3 +214,40 @@ footer {
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
+
+ /* Blog Part*/
+
+ .bcard {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
+
+.bcard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bcard-title {
+  font-size: 1.5rem;
+  color: #007bff;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bcard-text {
+  margin-top: 1.5rem;
+  color: #000000;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.bcard-date {
+  color: #007bff;
+  text-align-last: right;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
